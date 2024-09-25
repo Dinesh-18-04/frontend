@@ -1,9 +1,11 @@
 import React from "react";
 import logo from "../../assets/logo.png"
-import { IoMdSearch } from "react-icons/io";
-import { FaCartShopping } from "react-icons/fa6";
+import { IoMdSearch } from "react-icons/io";   // Ionicons for the search icon
+import { FaCartShopping } from "react-icons/fa6";  // Font Awesome 6 for the cart icon
+import { FaCaretDown } from "react-icons/fa";  // Font Awesome for the caret down
+
 import DarkMode from "./DarkMode";
-import { FaCaretDown } from "react-icons/fa";
+
 
 const Menu = [
   {
